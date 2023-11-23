@@ -61,7 +61,7 @@ Approach -
   6. It sorts the DataFrame by the predicted ratings in descending order.
   7. It prints the top num_recommendations products.
 * Evaluating the model :
-  1. Calculate the average rating for all the movies by dividing the sum of all the ratings by the number of ratings.
+  1. Calculate the average rating for all the products by dividing the sum of all the ratings by the number of ratings.
   2, Calculate the average rating for all the predicted ratings by dividing the sum of all the predicted ratings by the number of ratings.
   3. Create a DataFrame called rmse_df that contains the average actual ratings and the average predicted ratings.
   4. Calculate the RMSE of the SVD model by taking the square root of the mean of the squared errors between the average actual ratings and the average predicted ratings.
